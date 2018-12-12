@@ -1,14 +1,34 @@
+header li
+	{
+		display:inline-block;
+		list-style:none;
+		float:right;
+		margin-right: 10px;
+		padding-top: 50px;
+		font-family: Helvetica;
+	}
+	a:link, a:visited{
+		color:gray;
+		background-color: white;
+		text-align: center;
+		font-size: 22px;
+		padding: 10 px;
+}
+	a:hover, a:active
+	{
+		background-color: gray;
+		color:white;
+	}
 
-	h1 {color: red; font-weight:bolder; font-family: sans-serif;}
-	.highlight{font-size:12px;font-weight: bold;font-style: italic;background-color: green;opacity: .6;}
-<!--.style
+ul
 {
-	font-family: Arial, Helvetica, sans-serif;
-	font style: italic;
-	font-weight:bold;
-	color:#982520;
-	font-size:24px;
-}-->
+	margin:1px;
+	padding: 0;
+}
+	.topnav {
+  background-color: white;
+  overflow: hidden;
+}
 
 .mystyle
 {
@@ -20,13 +40,20 @@
 	
 }
 
-div>p{
+div>p
+{
 	background: #f2f5d5;
 width: auto;
 height: auto;
 padding: 100px;
 border: 10px solid gray;
 margin: 30px;
+font-family:times "Times New Roman", Times, serif;
+font-size: 50px;
+text-align: center;
+text-shadow: .5px 3px gray;
+
+
 }
 
 video
